@@ -44,7 +44,11 @@ Detection logits: (6, 2)
 No training, dataset evaluation, or paper result is claimed.
 ```
 
-The output above is from a real local run of the script. It is recorded as text here; no screenshot is included yet. To reproduce the research experiments, obtain the original processed datasets and checkpoints, configure their paths, and use the corresponding `train_sarcasm.py` or `train_two.py` workflow described above.
+The output above is from a real local run of the script. The screenshot below shows that successful run in the editor.
+
+![Screenshot of the successful synthetic LogicMD smoke check](screenshots/synthetic-smoke-run.jpg)
+
+This synthetic smoke check confirms the model modules complete a forward pass. It is not a training run or evaluation on the research datasets. To reproduce the research experiments, obtain the original processed datasets and checkpoints, configure their paths, and use the corresponding `train_sarcasm.py` or `train_two.py` workflow described above.
 
 See [WINDOWS_SETUP.md](WINDOWS_SETUP.md) for the fuller environment notes.
 
