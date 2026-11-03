@@ -1,0 +1,7 @@
+id,text,image,label
+demo-01,"Synthetic post about a sunny park",sunny_park,real
+demo-02,"Synthetic post about a rainy street",rainy_street,real
+demo-03,"Synthetic claim about a blue bicycle",blue_bicycle,fake
+demo-04,"Synthetic claim about a green train",green_train,fake
+demo-05,"Synthetic post about a quiet library",quiet_library,real
+demo-06,"Synthetic claim about a purple bridge",purple_bridge,fake
